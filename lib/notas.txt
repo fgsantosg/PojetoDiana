@@ -1,0 +1,24 @@
+width total 1000px (100%)
+
+conteudo central: 900px (90%)
+menus esquerda: 100px (10%)
+elementos direita: 230px (23%)
+Elementos do centro: 
+
+css: #1CBCB4
+rgb(28, 188, 180)
+rgb(11%, 74%, 71%)
+hsl(177, 74%, 42%)
+
+R: 28, G: 188, B: 180 | #1CBCB4 | ?X: 271, ?Y: 204 | img.normal alignnone size-medium wp-image-11592
+
+perdidos icon
+http://br.depositphotos.com/22050727/stock-illustration-pet-shop-set-of-icons.html
+
+
+
+http://www.doapet.com.br/
+
+
+
+

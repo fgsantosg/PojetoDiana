@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<!-- Compatibilidade HTML5 e CSS3 para navegadores IE antigos -->
+<!--[if lt IE 9]>
+  <script src="js/compatibilidade/html5.js"></script>
+<![endif]-->
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portal Procura-se Pet</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/responsivo.css">
+	<link rel="stylesheet" type="text/css" href="css/fontes.css">
+</head>
+<body>
+	<div id="main">
+	<header class="menu">  <!-- Menu -->
+
+        <ul>
+            <a href="index.html"><li class="logo ativo"></li></a>
+            <a href="busca.html">
+                <li class="">
+                    <div class="cargaImg menuBgImg adocaoImg"></div>
+                    <p>ADOCAO</p>
+                </li>
+            </a>
+			<a href="#">
+                <li class="perdidos">
+                    <div class="cargaImg menuBgImg perdidosImg"></div>
+                    <p>PERDIDOS</p>
+                </li>
+            </a>
+			<a href="#">
+                <li class="ajude">
+                    <div class="cargaImg menuBgImg ajudeImg"></div>
+                    <p>AJUDE</p>
+                
+                </li>
+            </a>
+			<a href="#">
+                <li class="blog">
+                    <div class="cargaImg menuBgImg blogImg"></div>
+                    <p>BLOG</p>    
+                </li>
+            </a>
+			<a href="#">
+                <li class="social">
+                    <table class="logotipos">
+						<tr>
+							<td class="face"></td>
+							<td class="twitter"></td>
+						</tr>
+						<tr>
+							<td class="insta"></td>
+							<td class="youtube"></td>
+						</tr>
+					</table>
+                </li>
+            </a>
+		</ul>
+        
+	</header> <!-- / Menu -->
+	
+	<div class="container">
+        <div class="cabecalho">
+            <div class="esquerda">
+                <div class="loginBox">
+                    <div>
+                        <div class="ImgUsr"></div>
+                        <input class="loginText" type=text/></div>
+                    <div>
+                        <div class="ImgPass"></div>
+                        <input  class="loginText" type=text/></div>
+                    <div class="loginLinks">
+                        <a href="cadastro.html">Cadastre-se</a> |
+                        <a href="#">Login</a>
+                    </div>
+                </div>
+                
+                <div class="titulo">
+                    <h1>Se você perdeu seu animalzinho ou deseja adotar, selecione abaixo</h1>
+                </div>
+                
+                <div class="selecoes">
+                    <div class="caixa">
+                        <h6>Selecione uma ação</h6>
+                        <hr>
+                        <ul>
+                            <li><h6>Adotar</h6></li>
+                            <li><h6>Localizar</h6></li>
+                        </ul>
+                    </div>
+                    <div class="caixa"><h6>Selecione um animal</h6>
+                        <hr>
+                        <ul>
+                            <li><h6>Cachorro</h6></li>
+                            <li><h6>Gato</h6></li>
+                            <li><h6>Roedor</h6></li>
+                            <li><h6>Pássaro</h6></li>
+                        </ul>
+                    </div>
+                    <div class="caixa"><h6>Selecione uma cidade</h6>
+                        <hr>
+                        <select>
+                            <option value="SP">&nbsp</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="GO">Goiás</option>
+                        </select>
+                    </div>
+                </div>
+                
+            </div>
+        </div> <!-- / cabecalho -->
+        
+        
+        
+        
+        
+        
+        <div class="buscaContainer"> <!-- busca container -->
+            <div class="buscaMapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.8458834950393!2d-46.623271999999986!3d-23.573977999999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce597abf1a28ff%3A0x1b02a58f85e6395e!2sFIAP!5e0!3m2!1spt-BR!2sbr!4v1443867197320" width="860" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="buscaFiltroRes">
+                <div class="buscaFiltros">
+                    <div class="box filtroConteudo">
+                        <div class="titulo buscaFiltrosTitulo">Filtros</div>
+                        <div class="conteudo scroll">
+                            <div class="filtroBox">
+                                <div class="filtroTituloItem">Filtro 1</div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 1
+                                </div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 2
+                                </div>
+                            </div>
+                            
+                            <div class="filtroBox">
+                                <div class="filtroTituloItem">Filtro 2</div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 1
+                                </div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 2
+                                </div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 3
+                                </div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 4
+                                </div>
+                            </div>
+                            
+                            <div class="filtroBox">
+                                <div class="filtroTituloItem">Filtro 3</div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 1
+                                </div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 2
+                                </div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 3
+                                </div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 4
+                                </div>
+                            </div>
+                            
+                            <div class="filtroBox">
+                                <div class="filtroTituloItem">Filtro 4</div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 1
+                                </div>
+                            </div>
+                            
+                            <div class="filtroBox">
+                                <div class="filtroTituloItem">Filtro 5</div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 1
+                                </div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 2
+                                </div>
+                                <div class="filtroItem">
+                                    <input type="checkbox"/>
+                                    Sub Filtro 3
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box resConteudo">
+                        <div class="titulo buscaResTitulo">Resultado</div>
+                        <div class="conteudo scroll">
+                            
+                            <div class="buscaResItem">
+                                <div class="resItemImagem">
+                                    <img src="img/resultBusca/resultAvatar_01.jpg" width="100" height="100" />
+                                </div>
+                                <div class="resItemDesc">
+                                    <div class="resItemTitulo">Título da Busca</div>
+                                    <div class="resItemMensagem">
+                                        Canis lupus familiaris é um animal canídeo designado no Brasil como cachorro, com expectativa de vida que varia entre dez e vinte anos.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="buscaResItem">
+                                <div class="resItemImagem">
+                                    <img src="img/resultBusca/resultAvatar_02.jpg" width="100" height="100" />
+                                </div>
+                                <div class="resItemDesc">
+                                    <div class="resItemTitulo">Título da Busca</div>
+                                    <div class="resItemMensagem">
+                                        Canis lupus familiaris é um animal canídeo designado no Brasil como cachorro, com expectativa de vida que varia entre dez e vinte anos.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="buscaResItem">
+                                <div class="resItemImagem">
+                                    <img src="img/resultBusca/resultAvatar_03.jpg" width="100" height="100" />
+                                </div>
+                                <div class="resItemDesc">
+                                    <div class="resItemTitulo">Título da Busca</div>
+                                    <div class="resItemMensagem">
+                                        Canis lupus familiaris é um animal canídeo designado no Brasil como cachorro, com expectativa de vida que varia entre dez e vinte anos.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="buscaResItem">
+                                <div class="resItemImagem">
+                                    <img src="img/resultBusca/resultAvatar_04.jpg" width="100" height="100" />
+                                </div>
+                                <div class="resItemDesc">
+                                    <div class="resItemTitulo">Título da Busca</div>
+                                    <div class="resItemMensagem">
+                                        Canis lupus familiaris é um animal canídeo designado no Brasil como cachorro, com expectativa de vida que varia entre dez e vinte anos.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="buscaResItem">
+                                <div class="resItemImagem">
+                                    <img src="img/resultBusca/resultAvatar_05.jpg" width="100" height="100" />
+                                </div>
+                                <div class="resItemDesc">
+                                    <div class="resItemTitulo">Título da Busca</div>
+                                    <div class="resItemMensagem">
+                                        Canis lupus familiaris é um animal canídeo designado no Brasil como cachorro, com expectativa de vida que varia entre dez e vinte anos.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="buscaResItem">
+                                <div class="resItemImagem">
+                                    <img src="img/resultBusca/resultAvatar_06.jpg" width="100" height="100" />
+                                </div>
+                                <div class="resItemDesc">
+                                    <div class="resItemTitulo">Título da Busca</div>
+                                    <div class="resItemMensagem">
+                                        Canis lupus familiaris é um animal canídeo designado no Brasil como cachorro, com expectativa de vida que varia entre dez e vinte anos.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="buscaResItem">
+                                <div class="resItemImagem">
+                                    <img src="img/resultBusca/resultAvatar_07.jpg" width="100" height="100" />
+                                </div>
+                                <div class="resItemDesc">
+                                    <div class="resItemTitulo">Título da Busca</div>
+                                    <div class="resItemMensagem">
+                                        Canis lupus familiaris é um animal canídeo designado no Brasil como cachorro, com expectativa de vida que varia entre dez e vinte anos.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="buscaResItem">
+                                <div class="resItemImagem">
+                                    <img src="img/resultBusca/resultAvatar_08.jpg" width="100" height="100" />
+                                </div>
+                                <div class="resItemDesc">
+                                    <div class="resItemTitulo">Título da Busca</div>
+                                    <div class="resItemMensagem">
+                                        Canis lupus familiaris é um animal canídeo designado no Brasil como cachorro, com expectativa de vida que varia entre dez e vinte anos.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="buscaResItem">
+                                <div class="resItemImagem">
+                                    <img src="img/resultBusca/resultAvatar_09.jpg" width="100" height="100" />
+                                </div>
+                                <div class="resItemDesc">
+                                    <div class="resItemTitulo">Título da Busca</div>
+                                    <div class="resItemMensagem">
+                                        Canis lupus familiaris é um animal canídeo designado no Brasil como cachorro, com expectativa de vida que varia entre dez e vinte anos.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="buscaResItem">
+                                <div class="resItemImagem">
+                                    <img src="img/resultBusca/resultAvatar_10.jpg" width="100" height="100" />
+                                </div>
+                                <div class="resItemDesc">
+                                    <div class="resItemTitulo">Título da Busca</div>
+                                    <div class="resItemMensagem">
+                                        Canis lupus familiaris é um animal canídeo designado no Brasil como cachorro, com expectativa de vida que varia entre dez e vinte anos.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="buscaResultado">
+                </div>
+            </div>
+        </div> <!-- / busca container -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <footer>
+            <div class="mapaSite">
+                <div class="box">
+                    <div class="mapaBoxTitulo">Mussum Ipsum</div>
+                    <ul>
+                        <li>Cacilds</li>
+                        <li>Sábadis</li>
+                        <li>Dominguis</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <div class="mapaBoxTitulo">Mussum Ipsum</div>
+                    <ul>
+                        <li>Cacilds</li>
+                        <li>Sábadis</li>
+                        <li>Dominguis</li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <div class="mapaBoxTitulo">Mussum Ipsum</div>
+                    <ul>
+                        <li>Cacilds</li>
+                        <li>Sábadis</li>
+                        <li>Dominguis</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="projeto">Projeto Diana</div>
+	   </footer>
+        
+	</div> <!-- / container-->
+	</div>
+</body>
+
+</html>
